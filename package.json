@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest --watch",
     "dev": "webpack --mode=development",
@@ -69,6 +70,7 @@
     }
   },
   "dependencies": {
+    "csv-parse": "^5.0.4",
     "ramda": "^0.27.1"
   }
 }
